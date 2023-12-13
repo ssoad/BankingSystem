@@ -152,7 +152,7 @@ public class Menu extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setIcon(new ImageIcon(Menu.class.getResource("/img/1.png")));
-		lblNewLabel.setBounds(397, 16, 216, 213);
+		lblNewLabel.setBounds(397, 166, 216, 213);
 		contentPane.add(lblNewLabel);
 		
 		//Image image=GenerateImage.toImage(true);  //this generates an image file
