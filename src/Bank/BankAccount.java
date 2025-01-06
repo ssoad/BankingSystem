@@ -31,7 +31,7 @@ public class BankAccount implements Serializable {
 	public void deposit(double amount) throws InvalidAmount
 	{
 		if (amount <= 0){
-			throw new InvalidAmount("Deposit amount must be greater than zero.")
+			throw new InvalidAmount("Deposit amount must be greater than zero.");
 		}
 		balance+=amount;
 	}
